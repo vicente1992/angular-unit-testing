@@ -1,11 +1,11 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UsersService } from 'src/app/services/user.service';
-import { geText, query, queryById } from 'src/testing';
+import { geText, query } from 'src/testing';
 
 import { RegisterFormComponent } from './register-form.component';
 
-fdescribe('RegisterFormComponent', () => {
+describe('RegisterFormComponent', () => {
   let component: RegisterFormComponent;
   let fixture: ComponentFixture<RegisterFormComponent>;
   let usersServiceSpy: jasmine.SpyObj<UsersService>;
